@@ -1,0 +1,323 @@
+*{
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: 'Nunito', sans-serif;
+  font-size: 20px;
+  
+}
+
+body{
+  background-image: url(../Image/jon-parry-C8eSYwQkwHw-unsplash.jpg);
+
+}
+
+.header .nav-links{
+  display: inline-block;
+  padding: 0 20px;  
+  transition: all 0.3s ease 0s;  
+}
+
+.header .nav-links:hover{
+  transform: scale(1.1);
+  color: rgb(177, 211, 223);
+}
+
+.cartButton {
+  display: flex;
+  position: relative;
+  color: black;
+  margin-bottom: 10px;
+  background: rgba(255,255,255, .4);
+  padding: 10px;
+  border-radius: 10px;
+}
+
+.cartQuantity {
+  position: absolute;
+  top: -10px;
+  right: -10px;
+  width: 25px;
+  height: 25px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: red;
+  border-radius: 50%;
+  padding: 5px;
+}
+
+.cart {
+  margin-right: -40px;
+  font-weight: 700;
+  padding: 9px 25px;
+  background-image: url(../Image/verter-cerveza-espuma-burbuja-vidrio-fondo_53089-87.webp);
+  border: none;
+  border-radius: 60px;
+  cursor: pointer;
+  transition: all 0.3s ease 0s;
+}
+
+.cart button:hover{
+  transform: scale(1.1);
+  background-color:  rgb(255, 248, 55);
+}
+
+.navLinks{
+  display: grid;
+  justify-content: space-around;
+  color: black;
+  list-style: none;
+  text-decoration:none;
+  font-size:x-large;
+ 
+}
+.navLinks:hover{
+  color:rgb(252, 107, 107) ;
+  transition: 0.5s;
+}
+
+.CartaCompra{
+  grid-template-columns: repeat(4,300px);
+  grid-template-rows: repeat(2,auto);
+  row-gap: 20px; 
+  display: grid;
+  justify-content: center;
+    
+}
+
+.imagenCarta{
+  width: 40%;
+  height: 60%;
+  display: grid;  
+}
+
+.nombreProducto{
+  color: aliceblue;
+}
+.precioProducto{
+  color: beige;
+}
+
+.menuNavHeader{
+  display: flex;
+  justify-content: space-around;
+  height: 80px;
+  
+}
+
+.Logo{
+  color: black;
+  font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  font-size: 2em;
+  text-decoration:none;
+}
+.Logo:hover{
+  color: rgb(252, 107, 107) ;
+  transition: 0.5s;
+  
+}
+
+.botonDetalles{
+  color: aliceblue;
+  text-decoration:none;
+}
+.botonDetalles:hover{
+  color: rgb(252, 107, 107) ;
+  transition: 0.5s;
+}
+
+.tituloDetalles{
+  color: black;
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  text-align: center;
+}
+
+.ventanaDetalles {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.imagenDetalles{
+  border-radius: 10%;
+  width: 20%;
+}
+
+.textoDetalles{
+  display: flex;
+  text-align: center;
+  float: center;
+  border-radius: 10px;
+  color: black;
+  font-size: x-large;
+  justify-content: center;
+
+}
+.precioDetalle{
+  color: red;
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  text-align: center;
+  font-size: 50px;
+
+}
+.stock{
+  text-align: center;
+  font-size: x-large;
+}
+
+.CartaCompra{
+  grid-template-columns: repeat(3,400px);
+  grid-template-rows: repeat(2,auto);
+  row-gap: 20px; 
+  display: grid;
+  justify-content: center;
+    
+}
+
+.card-body{
+  height: 50%;
+}
+
+.botonCarrito:hover{
+  color: blanchedalmond;
+
+}
+
+.contadorContainer {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  margin-bottom: 15px;
+}
+
+.numeroContador{
+  color: black;
+  font-size: 1.3em;
+  margin: 0;
+}
+.añadirAlcarritoBtn:hover{
+  color: bisque;
+
+}
+.botones{
+  display: flex;
+  justify-content: center;
+  
+}
+
+.boton{
+  background-color: rgb(65, 65, 65);
+  color: aliceblue;
+  height: 50px;
+  width: 100px;
+  border-radius: 5px;
+  justify-content: center;
+  
+}
+.boton:hover{
+  color: rgb(245, 115, 115);
+  transition: 0.5s;
+  justify-content: center;
+
+}
+
+.carritoContainer {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.TituloCarrito{
+  color: rgb(252, 107, 107);
+  font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+ 
+}
+.CarritoVacio{
+  color: rgb(245, 115, 115);
+  font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+.botonEliminarTodo{
+  background-color: rgb(65, 65, 65);
+  color: aliceblue;
+  border-radius: 5px;
+  justify-content: center;
+}
+.botonEliminarTodo:hover{
+  color: rgb(245, 115, 115);
+  transition: 0.5s;
+  justify-content: center;
+  
+}
+
+.listaCarrito {
+  display: flex;
+  gap: 30px;
+}
+
+.itemCarrito {
+  display: flex;
+  flex-direction: column;
+}
+
+.imagenCarrito{
+  object-fit: cover;
+  height: 150px;
+  width: 80px;
+  border-radius: 10px;
+  display: block;
+  margin: auto;
+}
+.textoCarrito{
+  color: black;
+  margin-bottom: 10px;
+}
+.botonEliminar{
+  background-color: rgb(65, 65, 65);
+  color: aliceblue;
+  border-radius: 5px;
+  
+}
+.botonEliminar:hover{
+  color: rgb(245, 115, 115);
+  transition: 0.5s;
+}
+
+.cartaFinalizarHeader{
+  color: rgb(59, 17, 243);
+  font-size: 1.5em;
+  font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+
+}
+.subTotal{
+  color: black;
+
+}
+
+.Total{
+  color: black;
+  font-size: 1.5em;
+}
+
+.FinalizarCompra{
+  background-color: rgb(65, 65, 65);
+  color: aliceblue ;
+  border-radius: 5px;
+}
+
+.FinalizarCompra:hover{
+  color: rgb(245, 115, 115);
+  transition: 0.5s;
+}
+
+
+
+
+
+
+
+
